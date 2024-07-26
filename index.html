@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather For Virtual Pilot</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    
+    <div class="container">
+
+        <div class="left-info">
+            <div class="pic-gradient"></div>
+
+            <div class="today-info">
+                <h2></h2>
+                <span></span>
+                <div>
+                    <i class='bx bx-current-location' ></i>
+                    <span class="current-location"></span>
+                </div>
+            </div>
+
+            <div class="today-weather">
+                <i class='bx bx-sun'></i>
+                <h2 class="weather-temp"></h2>
+                <h3 class="cloud-desc"></h3>
+            </div>
+        </div>
+
+        <div class="right-info">
+            <div class="day-info">
+
+                <div>
+                    <span class="title">QNH/HG</span>
+                    <span class="value pressure"></span>
+                </div>
+
+                <div>
+                    <span class="title">VISIBILITY<span>
+                    <span class="value visibility"></span>
+                </div>
+
+                <div>
+                    <span class="title">WIND</span>
+                    <span class="value wind"></span>
+                </div>
+
+            </div>
+
+            <ul class="days-list">
+                <li>
+                    <i class='bx bx-cloud'></i>
+                    <span></span>
+                    <span class="day-temp"></span>
+                </li>
+                <li>
+                    <i class='bx bx-cloud'></i>
+                    <span></span>
+                    <span class="day-temp"></span>
+                </li>
+                <li>
+                    <i class='bx bx-cloud'></i>
+                    <span></span>
+                    <span class="day-temp"></span>
+                </li>
+                <li>
+                    <i class='bx bx-cloud'></i>
+                    <span></span>
+                    <span class="day-temp"></span>
+                </li>
+            </ul>
+
+            <div class="loc-container">
+                <input class="location" type="text">
+                <button class="loc-button">Search Location</button>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
