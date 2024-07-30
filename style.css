@@ -7,7 +7,7 @@
 }
 
 body{
-    background-color: #37474f;
+    background-color: #6887c6;
     height: 100dvh;
     display: flex;
     align-items: center;
@@ -16,7 +16,7 @@ body{
 
 .container{
     height: 400px;
-    background-color: #232931;
+    background-color: #3a5269;
     color: #fff;
     border-radius: 25px;
     box-shadow: 0 5px 15px rgba(0,0,0,0.4);
@@ -30,7 +30,7 @@ body{
     display: flex;
     justify-content: center;
     border-radius: 25px;
-    background: url("assets/sky.jpg");
+    background: url("assets/aircraft.jpg");
     background-size: cover;
     background-position: center;
     transform: scale(1.03) perspective(200px);
@@ -131,7 +131,7 @@ body{
 .days-list li:hover{
     transform: scale(1.1);
     color: #222831;
-    background: #fff;
+    background: #e7e7e7;
     box-shadow: 0 5px 15px #0003;
 }
 
@@ -160,13 +160,17 @@ body{
     font-size: 1.3rem;
     height: 30px;
     font-weight: 500;
-    background: #304663;
+    background: #85a3ca;
     color: #fff;
     transition: color 0.3s ease, background 0.3s ease;
 }
 
+.location::placeholder{
+    color: #fff;
+}
+
 .location:focus-visible{
-    background: #4c6d99;
+    background: #6c84a3;
     color: #dbdbdb;
 }
 
@@ -177,7 +181,7 @@ body{
     font-weight: 700;
     border-radius: 25px;
     padding: 10px;
-    background: #579dcc99;
+    background: #648aa3;
     color: #fff;
     cursor: pointer;
     box-shadow: 0 5px 15px #0003;
@@ -185,7 +189,7 @@ body{
 }
 
 .loc-button:hover{
-    background: #355e7ab6;
+    background: #7d9fb6;
 }
 
 @media screen and (max-width:680px) {
